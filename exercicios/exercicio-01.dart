@@ -1,6 +1,6 @@
 /*
 Crie uma função que dado dois valores (passados como parâmetros) 
-mostre no console va soma, subtração, multiplicação e divisão desses valores.
+mostre no console a soma, subtração, multiplicação e divisão desses valores.
 */
 
 void calcularOperacoes(double valor1, double valor2) {
