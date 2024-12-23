@@ -31,6 +31,12 @@ void main() {
 ### **2. Encapsulamento**
 O encapsulamento consiste em restringir o acesso direto aos atributos e métodos de uma classe, garantindo controle sobre como os dados são manipulados. Em Dart, usamos modificadores de acesso como `_` (privado).
 
+#### Getters e Setters
+
+Os getters e setters são métodos usados para acessar e modificar atributos privados de uma classe de maneira controlada. Eles permitem que você adicione lógica adicional ao obter ou definir valores, como validações ou transformações.
+
+Em Dart, os getters são definidos usando a palavra-chave `get`, enquanto os setters usam `set`. Esses métodos ajudam a preservar o encapsulamento e tornam o código mais seguro e legível.
+
 #### Exemplo:
 ```dart
 class ContaBancaria {
@@ -39,7 +45,17 @@ class ContaBancaria {
 
   ContaBancaria(this._titular, this._saldo);
 
+  // Getter para o saldo
   double get saldo => _saldo;
+
+  // Setter para o saldo com validação
+  set saldo(double valor) {
+    if (valor >= 0) {
+      _saldo = valor;
+    } else {
+      print('Saldo não pode ser negativo.');
+    }
+  }
 
   void depositar(double valor) {
     if (valor > 0) {
@@ -65,6 +81,13 @@ void main() {
   conta.depositar(200);
   conta.sacar(100);
   print('Saldo atual: R\$ ${conta.saldo}');
+
+  // Usando o setter para modificar o saldo
+  conta.saldo = 1000;
+  print('Saldo atualizado: R\$ ${conta.saldo}');
+
+  // Tentando definir um saldo negativo
+  conta.saldo = -500; // Mostrará uma mensagem de erro
 }
 ```
 
@@ -296,4 +319,4 @@ void main() {
 ---
 
 ### Conclusão
-Dart oferece uma implementação robusta da POO, permitindo criar sistemas bem estruturados e reutilizáveis. Aproveite os pilares da POO para desenvolver soluções elegantes e eficientes! 🚀
+Dart oferece uma implementação robusta da POO, permitindo criar sistemas bem estruturados e reutilizáveis. Aproveite os pilares da POO para desenvolver soluções elegantes e eficientes!
