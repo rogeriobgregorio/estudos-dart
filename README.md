@@ -44,21 +44,19 @@ triângulo).
 - 4. Crie uma função que irá receber dois valores, o dividendo e o divisor. A função deverá imprimir o resultado
 e o resto da divisão destes dois valores.
 
-- 5.  Lidar com números em JavaScript pode dar muita dor de cabeça. Você já viu o que acontece quando faz o
-seguinte comando no console: console.log(0.1 + 0.2); O resultado será: 0.30000000000000004. Outra coisa
-importante de observar, é o fato que o ponto é utilizado no lugar da vírgula e vice versa. Com isso, vamos fazer
-um exercício simples para mostrar dinheiro sempre da forma correta. Desenvolva uma função JavaScript para
-que ela receba um valor como 0.30000000000000004 e retorne R$0,30 (observe a vírgula e o ponto).
+- 5. Desenvolva uma função para que ela receba 
+um valor como 0.30000000000000004 
+e retorne R$0,30 (observe a vírgula e o ponto).
 
 - 6. Elabore duas funções que recebem três parâmetros: capital inicial, taxa de juros e tempo de aplicação.A
 primeira função retornará o montante da aplicação financeira sob o regime de juros simples e a segunda
 retornará o valor da aplicação sob o regime de juros compostos.
 
-- 7. Uma das vantagens da programação é a automatização de tarefas que não gostamos de realizar.Dito isto,
+- 7. Uma das vantagens da programação é a automatização de tarefas que não gostamos de realizar. Dito isto,
 elabore uma função cujo objetivo é resolver a fórmula de Bhaskara.Para isso, sua função deve receber três
 parâmetros, “ax2”, “bx” e “c”, de tal modo que na equação: 3x² - 5x + 12 os valores seriam respectivamente: 3,
 -5, 12. Como retorno deve ser passado um vetor que tem 2 valores um para cada possível resultado, mesmo
-que os resultados sejam iguais.Caso o delta seja negativo, retorne, ao invés do vetor, um string com a frase:
+que os resultados sejam iguais. Caso o delta seja negativo, retorne, ao invés do vetor, um string com a frase:
 “Delta é negativo”.
 
 - 8. Pedro joga N jogos de basquete por temporada. Para saber como está ele está progredindo, ele mantém
@@ -190,8 +188,7 @@ todos os caracteres (independentemente de ser maiúsculo ou minúsculo) estejam 
 
 - 35. Crie dois vetores chamados vetorPilha e vetorAdiciona. Inicialmente, o vetorPilha conterá cinco elementos
 inteiros: [1, 2, 3, 4, 5]. Você deverá adicionar os valores contidos no vetorAdiciona [6, 7, 8, 9, 10] ao vetor pilha
-e mostrá-los no console. É importante lembrar que o método Push retorna somente o tamanho do Vetor. Ao
-final das operações imprima os vetores no console.
+e mostrá-los no console. Ao final das operações imprima os vetores no console.
 
 - 36. Crie duas funções que recebem dois parâmetros, um vetor com apenas valores numéricos e um número
 inteiro. Faça com que a primeira função retorne outro vetor que será resultado da multiplicação de cada
