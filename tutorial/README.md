@@ -1,6 +1,6 @@
-# Criando uma API REST com Dart e um ORM
+# Criando uma API REST com Dart e Jaguar
 
-Este tutorial apresenta um guia completo para criar uma API RESTful usando Dart com um ORM (Jaguar). Vamos abordar desde a configuração inicial do projeto até funcionalidades mais avançadas como tratamento de erros, autenticação/autorizacão com JWT e manipulação de relacionamentos no banco de dados.
+Este tutorial apresenta um guia completo para criar uma API RESTful usando Dart com Jaguar. Vamos abordar desde a configuração inicial do projeto até funcionalidades mais avançadas como tratamento de erros, autenticação/autorizacão com JWT e manipulação de relacionamentos no banco de dados.
 
 ## Requisitos
 
